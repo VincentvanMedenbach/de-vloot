@@ -1,0 +1,101 @@
+* {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("ImgCss/bg.png");
+
+}
+
+header {
+    background-image: url("ImgCss/header.jpg");
+    background-size: cover;
+    align-content: center;
+    margin-left: 25%;
+    margin-right: 22.5%;
+}
+
+article {
+    margin-left: 25%;
+    background-color: white;
+    display: block;
+    margin-right: 22.5%;
+    padding-left: 21px;
+}
+
+/*Headers*/
+
+h1 {
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size: 37px;
+}
+
+h2 {
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+h3 {
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+/*Menu*/
+li {
+
+    display: inline;
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    padding-top: 146px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+    align: center;
+    color: white;
+    font-size: 13px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+/*Classes*/
+.intextIMG {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+
+.intextRightImg {
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+
+.Toosmall {
+    padding-bottom: 100px;
+}
+
+.sub {
+    height: 40%;
+    width: 40%;
+}
